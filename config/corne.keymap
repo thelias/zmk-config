@@ -8,6 +8,16 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        tildaswitch {
+            bindings = <&kp TILDE>;
+            key-positions = <0 1>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

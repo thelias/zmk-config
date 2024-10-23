@@ -44,9 +44,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE        &kp N1            &kp N2                  &kp N3                &kp N4             &kp N5                      &kp N6         &kp N7           &kp N8       &kp N9          &kp N0            &kp BSPC
-&trans            &kp LC(LA(LEFT))  &kp LC(LA(DOWN_ARROW))  &kp LC(LA(UP_ARROW))  &kp LC(LA(RIGHT))  &kp LC(LA(ENTER))           &kp LEFT       &kp DOWN         &kp UP       &kp RIGHT       &trans            &trans
-&kp LEFT_CONTROL  &kp LG(LC(Q))     &kp C_MUTE              &kp C_VOLUME_DOWN     &kp C_VOLUME_UP    &kp LG(LS(LC(NUMBER_4)))    &trans         &kp LC(LS(TAB))  &kp LC(TAB)  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT
+&kp ESCAPE        &kp N1            &kp N2                  &kp N3                &kp N4             &kp N5                      &kp N6         &kp N7           &kp N8       &kp N9          &kp N0                &kp BSPC
+&trans            &kp LC(LA(LEFT))  &kp LC(LA(DOWN_ARROW))  &kp LC(LA(UP_ARROW))  &kp LC(LA(RIGHT))  &kp LC(LA(ENTER))           &kp LEFT       &kp DOWN         &kp UP       &kp RIGHT       &kp RA(RC(RG(LEFT)))  &kp RC(RA(RG(RIGHT)))
+&kp LEFT_CONTROL  &kp LG(LC(Q))     &kp C_MUTE              &kp C_VOLUME_DOWN     &kp C_VOLUME_UP    &kp LG(LS(LC(NUMBER_4)))    &trans         &kp LC(LS(TAB))  &kp LC(TAB)  &kp C_PREVIOUS  &kp C_PLAY_PAUSE      &kp C_NEXT
                                                             &trans                &trans             &kp SPACE                   &kp BACKSPACE  &trans           &trans
             >;
         };
